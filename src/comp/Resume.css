@@ -1,0 +1,67 @@
+.resume-section {
+  background: #0b1c26;
+  color: white;
+  padding: 80px 0;
+}
+
+.resume-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.resume-title::after {
+  content: "";
+  width: 130px;
+  height: 2px;
+  background: #00bcd4;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+
+.resume-item {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 30px;
+  border-left: 2px solid #00bcd4;
+}
+
+.resume-item::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  background: #00bcd4;
+  border-radius: 50%;
+}
+
+.resume-item span {
+  display: inline-block;
+  background: #0f2a35;
+  padding: 3px 10px;
+  font-size: 12px;
+  margin: 5px 0;
+  color: #00bcd4;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.progress {
+  height: 6px;
+  background: #1e3a46;
+}
+
+.progress-bar {
+  background: #00bcd4;
+}
